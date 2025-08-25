@@ -2,7 +2,7 @@
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/Tooltip";
 import { motion } from 'framer-motion';
-import { SiAmazonaws, SiExpo, SiFramer, SiIonic, SiMui, SiPostgresql, SiReactquery, SiRedis, SiSocketdotio, SiTrpc } from "react-icons/si";
+import { SiAmazon, SiExpo, SiFramer, SiIonic, SiMui, SiPostgresql, SiReactquery, SiRedis, SiSocketdotio, SiTrpc } from "react-icons/si";
 
 const AllLearningTechs = () => {
 
@@ -171,11 +171,11 @@ const AllLearningTechs = () => {
                         <Tooltip>
                             <TooltipTrigger>
                                 <div className="transition duration-300 ease-out text-neutral-700 hover:text-[#FF9900]">
-                                    <SiAmazonaws className="w-6 h-6" />
+                                    <SiAmazon className="w-6 h-6" />
                                 </div>
                             </TooltipTrigger>
                             <TooltipContent>
-                                <p>AWS</p>
+                                <p>Amazon</p>
                             </TooltipContent>
                         </Tooltip>
                     </motion.li>
